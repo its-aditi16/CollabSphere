@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs & debug output
+*.log
+server/debug_log.txt
+server/error.txt
+server/error_log.txt
+server/error_v2.txt
+
+# Local data dumps & backups
+server/users_list*.json
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
